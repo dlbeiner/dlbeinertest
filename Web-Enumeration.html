@@ -1,0 +1,333 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+	<!-- Page title -->
+	<title>Web Enumeration</title>
+	<!-- Page description -->
+	<meta name="description" content="">
+	<!-- Meta -->
+	<meta charset="UTF-8">
+	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<!-- Favicon  -->
+	<link rel="icon" type="image/png" href="img/favicons/favicon-16x16.png" sizes="16x16">
+	<link rel="icon" type="image/png" href="img/favicons/favicon-32x32.png" sizes="32x32">
+	<link rel="icon" type="image/png" href="img/favicons/favicon-96x96.png" sizes="96x96">
+	<link rel="apple-touch-icon" sizes="57x57" href="img/favicons/apple-touch-icon-57x57.png">
+	<link rel="apple-touch-icon" sizes="60x60" href="img/favicons/apple-touch-icon-60x60.png">
+	<link rel="apple-touch-icon" sizes="72x72" href="img/favicons/apple-touch-icon-72x72.png">
+	<link rel="apple-touch-icon" sizes="76x76" href="img/favicons/apple-touch-icon-76x76.png">
+	<link rel="apple-touch-icon" sizes="114x114" href="img/favicons/apple-touch-icon-114x114.png">
+	<link rel="apple-touch-icon" sizes="120x120" href="img/favicons/apple-touch-icon-120x120.png">
+	<link rel="apple-touch-icon" sizes="144x144" href="img/favicons/apple-touch-icon-144x144.png">
+	<link rel="apple-touch-icon" sizes="152x152" href="img/favicons/apple-touch-icon-152x152.png">
+	<link rel="apple-touch-icon" sizes="180x180" href="img/favicons/apple-touch-icon-180x180.png">
+	<!-- Include StyleSheets -->
+	<link rel="stylesheet" href="css/style.min.css">
+	<!-- <link rel="stylesheet" href="css/custom.css"> -->
+	<script src="js/modernizr.js"></script>
+</head>
+
+<body class="">
+	<!--[if lt IE 8]>
+	    <p class="browserupgrade">You are using an <strong>outdated</strong> browser. Please <a href="http://browsehappy.com/">upgrade your browser</a> to improve your experience.</p>
+	<![endif]-->
+	<!-- Preloader: uncomment this if you want to show a smooth preloader while the page is loading. Don't forget to add the 'js-preload-me' class on the <body> tag. -->
+	<!-- <div class="preloader js-preloader"><div class="preloader-animation"></div></div>
+ -->
+	<!-- End of Preloader -->
+	<div class="page js-page ">
+		<!-- One Page Sidebar -->
+		<div class="one-page-sidebar">
+			<!-- One Page Sidebar Header -->
+			<div class="one-page-sidebar-header">
+				<!-- One Page Logo -->
+				<div class="one-page-logo">
+					<!-- Logo Image -->
+					<a href="index.html" class="logo-image ">
+							<img src="" alt="Web Enumeration">
+					</a>
+					<!-- End of Logo Image -->
+				</div>
+				<!-- End of One Page Logo -->
+				<!-- One Page Meta -->
+				<div class="one-page-meta">
+					<ul class="one-page-meta-list">
+						<li>
+							<a href="#">
+								<i class="one-page-meta-list-icon fa fa-github-alt"></i>GitHub</a>
+						</li>
+
+					</ul>
+				</div>
+				<!-- End of One Page Meta -->
+			</div>
+			<!-- End of One Page Sidebar Header -->
+			<!-- One Page Nav -->
+			<div class="one-page-nav-wrapper js-custom-scrollbar">
+				<ul class="one-page-nav js-one-page-nav js-menu-vertical" data-prepend-to=".js-prepend-mobile-menu">
+					<li class="is-active">
+						<a href="#content" class="">
+							<span class="one-page-nav-icon">
+								<i class="fa fa-thumbs-o-up"></i>
+							</span>Introduction</a>
+					</li>
+					<li class="">
+						<a href="#Gobuster" class="">
+							<span class="one-page-nav-icon">
+								<i class="fa fa-download"></i>
+							</span>Gobuster</a>
+					</li>
+					<li class="">
+						<a href="#Wfuzz" class="">
+							<span class="one-page-nav-icon">
+								<i class="fa fa-folder"></i>
+							</span>Wfuzz</a>
+					</li>
+
+				</ul>
+			</div>
+			<!-- End of One Page Nav -->
+			<!-- One Page Sidebar Footer -->
+			<footer class="one-page-sidebar-footer">
+		    Web Enumeration</footer>
+			<!-- End of One Page Sidebar Footer -->
+		</div>
+		<!-- End of One Page Sidebar -->
+		<!-- One Page Content -->
+		<div class="one-page-content">
+			<!-- Header -->
+			<header class="header large header-one-page js-header-fixed">
+				<div class="container-fluid container-spaced">
+					<div class="row">
+						<div class="col-md-3 col-sm-6 col-xs-5">
+							<div class="visible-sm-block visible-xs-block">
+								<!-- Logo Image -->
+								<a href="index.html" class="logo-image logo-animated">
+									<img src="img/logos/logo.png" alt="logo">
+								</a>
+								<!-- End of Logo Image -->
+							</div>
+						</div>
+						<div class="col-md-9 col-sm-6 col-xs-7">
+						<!-- Menu -->
+						<nav class="right helper">
+                                <ul class="menu sf-menu js-menu">
+                                    <li>
+                                        <a href="index.html">Home
+                                            <span class="menu-label">NEW</span>
+                                        </a>
+                                        <ul>
+    
+                                            <li>
+                                                <a href="#">Menu</a>
+                                                <ul>
+                                                    <li>
+                                                        <a href="#">Null</a>
+                                                    </li>
+                                                    <li>
+                                                        <a href="#">Null</a>
+                                                    </li>
+                                                </ul>
+                                            </li>
+                                            <li>
+                                                <a href="#">Null</a>
+                                            </li>
+    
+                                        </ul>
+                                    </li>
+                                    
+                                            <li>
+                                                <a href="#">Pages</a>
+                                                <ul>
+                                                    <li>
+                                                        <a href="xss.html">XSS</a>
+                                                    </li>
+                                                <li>
+                                                <ul>
+                                                    <a href="#">File Transfers</a>
+                                                <li>
+                                                    <a href="file-transfers.html">File Transfers</a>
+                                                </li>
+                                                </ul>
+                                            
+                                            <li>
+                                                <a href="#">Discovery</a>
+                                                <ul>
+                                                    <li>
+                                                        <a href="nmap.html">nmap</a>
+                                                    </li>
+                                                <li>
+                                                    
+                                            </li>
+                                        </ul>
+                                        <li>
+                                                <a href="#">Enumeration</a>
+                                                <ul>
+                                                    <li>
+                                                        <a href="Web-Enumeration.html">Web Enumeration</a>
+                                                    </li>
+                                                    <li>
+                                                        <a href="nmap.html">SMB Enumeration</a>
+                                                    </li>
+                                                    </ul>
+                                                </ul>
+                                        </li>
+                                    </li>
+                                    <li>
+                                            <a href="index.html">Login</a>
+                                        </li>	
+                                <li>
+                                    <a href="index.html">Contact</a>
+                                </li>		
+                            </nav>
+                            <!-- End of Menu -->
+						</div>
+					</div>
+				</div>
+			</header>
+			<!-- End of Header -->
+			<div id="content">
+				<div class="container-fluid container-spaced">
+					<div class="row">
+						<div class="col-md-12">
+							<div class="js-prepend-mobile-menu">
+								<!-- The mobile menu will be prepended here -->
+							</div>
+							<!-- Category Info -->
+							<div class="category-info helper pt0" id="main-features">
+								<h3 class="category-title"> Introduction
+									<!-- Fragment Identifier -->
+									<a class="fragment-identifier js-fragment-identifier fragment-identifier-scroll" href="#main-features">
+										<i class="fa fa-link"></i>
+									</a>
+									<!-- End of Fragment Identifier -->
+								</h3>
+								<p class="category-content">Several tools that can be used for Web Enumeration.</p>
+							</div>
+
+							<!-- Category Info -->
+							<div class="category-info " id="Gobuster">
+									<h3 class="category-title"> Gobuster
+										<!-- Fragment Identifier -->
+										<a class="fragment-identifier js-fragment-identifier fragment-identifier-scroll" href="#Gobuster">
+											<i class="fa fa-link"></i>
+										</a>
+										<!-- End of Fragment Identifier -->	
+									</h3>
+									<h4 class="category-description">Let's get started.</h4>
+									<p class="category-content"> Gobuster scanning techniques. -r parameter can be used to follow redirects. </p>
+								</div>
+								<!-- End of Caregory Info -->
+									<!-- Note -->
+										<div class="note js-note green note-pulse">
+										<span class="note-close js-close">
+											<i class="fa fa-times"></i>
+										</span>
+										<h4 class="note-title"> Gobuster</h4>
+										<p class="note-description"> Quick directory busting. </p>
+									</div>
+									<!-- End of Note -->
+									<div class="code-highlight " data-label="">
+										<span class="js-copy-to-clipboard copy-code">copy</span> <pre><code class="language-markup js-code">gobuster -u $ip -w /usr/share/seclists/Discovery/Web_Content/common.txt -t 80 -a Linux
+								</code></pre> </div>
+							<!-- Note -->
+							<div class="note js-note note-bounce">
+									<span class="note-close js-close">
+										<i class="fa fa-times"></i>
+									</span>
+									<h4 class="note-title"> Gobuster </h4>
+									<p class="note-description">Gobuster comprehensive directory busting </p>
+								</div>
+								<!-- End of Note -->
+														<!-- Mixed Code Highlight -->
+						<div class="code-highlight">
+								<span class="js-copy-to-clipboard copy-code">copy</span> <pre><code class="language-markup js-code">gobuster -s 200,204,301,302,307,403 -u $ip -w /usr/share/seclists/Discovery/Web_Content/big.txt -t 80 -a 'Mozilla/5.0 (X11; Linux x86_64; rv:52.0) Gecko/20100101 Firefox/52.0'
+	</code></pre></div>
+    <div class="note js-note blue-light note-pulse">
+            <span class="note-close js-close">
+                <i class="fa fa-times"></i>
+            </span>
+            <h4 class="note-title"> Gobuster</h4>
+            <p class="note-description"> Search with file extension </p>
+        </div>
+        <!-- End of Note -->
+        <div class="code-highlight " data-label="">
+            <span class="js-copy-to-clipboard copy-code">copy</span> <pre><code class="language-markup js-code">gobuster -u $ip -w /usr/share/seclists/Discovery/Web_Content/common.txt -t 80 -a Linux -x .txt,.php
+    </code></pre> </div>
+    <div class="note js-note blue note-pulse">
+            <span class="note-close js-close">
+                <i class="fa fa-times"></i>
+            </span>
+            <h4 class="note-title"> Gobuster</h4>
+            <p class="note-description"> Comprehensive search with basic authentication </p>
+        </div>
+        <!-- End of Note -->
+        <div class="code-highlight " data-label="">
+            <span class="js-copy-to-clipboard copy-code">copy</span> <pre><code class="language-markup js-code">gobuster -s 200,204,301,302,307,403 -u $ip -U &lt;Username&gt; - P &lt;Password&gt; -w /usr/share/seclists/Discovery/Web_Content/big.txt -t 80 -a 'Mozilla/5.0 (X11; Linux x86_64; rv:52.0) Gecko/20100101 Firefox/52.0'
+    </code></pre> </div>
+
+    <!-- Category Info -->
+    <div class="category-info " id="Wfuzz">
+            <h3 class="category-title"> Wfuzz
+                <!-- Fragment Identifier -->
+                <a class="fragment-identifier js-fragment-identifier fragment-identifier-scroll" href="#Wfuzz">
+                    <i class="fa fa-link"></i>
+                </a>
+                <!-- End of Fragment Identifier -->	
+            </h3>
+            <h4 class="category-description">Let's get started.</h4>
+            <p class="category-content"> Wfuzz scanning techniques. This is used to fuzz urls and other parameters </p>
+        </div>
+        <!-- End of Caregory Info -->
+            <!-- Note -->
+                <div class="note js-note green note-pulse">
+                <span class="note-close js-close">
+                    <i class="fa fa-times"></i>
+                </span>
+                <h4 class="note-title"> Wfuzz</h4>
+                <p class="note-description"> Fuzz with JasonHaddix seclist using basic authenticaiton. </p>
+            </div>
+            <!-- End of Note -->
+            <div class="code-highlight " data-label="">
+                <span class="js-copy-to-clipboard copy-code">copy</span> <pre><code class="language-markup js-code">wfuzz -c -R 3 -L --sc 200,204,301,302,307,403 --basic admin:admin -z file,/root/secLists/fuzzing/SecLists/Fuzzing/LFI-JHADDIX.txt $ip:8989/something-admin.php?page=FUZZ
+
+        </code></pre> </div>
+							<!-- End of Mixed Code Highlight -->
+							<div class="note js-note blue note-pulse">
+								<span class="note-close js-close">
+									<i class="fa fa-times"></i>
+								</span>
+								<h4 class="note-title"> Wfuzz</h4>
+								<p class="note-description"> different scanning techniques </p>
+							</div>
+							<div class="code-highlight">
+								<span class="js-copy-to-clipboard copy-code">copy</span> <pre><code class="language-markup js-code">wfuzz -c -w /usr/share/wfuzz/wordlist/general/megabeast.txt $ip:60080/?FUZZ=test 
+						</code></pre></div>
+						<div class="code-highlight">
+							<span class="js-copy-to-clipboard copy-code">copy</span> <pre><code class="language-markup js-code">wfuzz -c --hw 114 -w /usr/share/wfuzz/wordlist/general/megabeast.txt $ip:60080/?page=FUZZ
+					</code></pre></div>
+					<div class="code-highlight">
+						<span class="js-copy-to-clipboard copy-code">copy</span> <pre><code class="language-markup js-code">wfuzz -c -w /usr/share/wfuzz/wordlist/general/common.txt "$ip:60080/?page=mailer&mail=FUZZ"
+                            </code></pre></div>
+                            <div class="code-highlight">
+					<span class="js-copy-to-clipboard copy-code">copy</span> <pre><code class="language-markup js-code">wfuzz -c -w /usr/share/seclists/Discovery/Web_Content/common.txt --hc 404 $ip/FUZZ
+			</code></pre></div>
+			<div class="code-highlight">
+				<span class="js-copy-to-clipboard copy-code">copy</span> <pre><code class="language-markup js-code">wfuzz -c -w /usr/share/seclists/Discovery/Web_Content/common.txt -R 3 --sc 200 $ip/FUZZ
+		</code></pre></div>
+
+					
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+		<!-- End of One Page Content -->
+	</div>
+	<script src="js/all.js"></script>
+	<script src="js/custom.js"></script>
+</body>
+
+</html>
